@@ -50,7 +50,7 @@ class PanAndZoomBehavior<D> extends PanBehavior<D> {
   /// visible.
   ///
   /// TODO: Dynamic max based on data range?
-  final _maxScalingFactor = 5.0;
+  final _maxScalingFactor = 100.0;
 
   @override
   bool onDragStart(Point<double> localPosition) {
